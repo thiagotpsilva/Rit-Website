@@ -1,0 +1,47 @@
+.main {
+	opacity: 0;
+	display: none;
+	transition: all 0.1s step-end;
+}
+
+.preloader {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	width: 100%;
+	z-index: 0;
+	background-color: var(--light-color);
+	background-color: var(--secondary-color);
+}
+
+.preloader img {
+	width: 20rem;
+	height: 20rem;
+	object-fit: cover;
+}
+
+.preloader * {
+	z-index: 100;
+}
+
+.preloader img {
+	height: 17.8rem;
+	object-fit: cover;
+}
+
+.preloader .counter h1 {
+	font-size: 2.5rem;
+	margin-top: 1rem;
+	color: var(--white-color);
+	color: var(--primary-color);
+	color: #ddbd2e;
+	letter-spacing: 0;
+}
+
+.preloader hr {
+	background: #ddbd2e;
+	border: none;
+	height: 0.1rem;
+}

@@ -1,0 +1,32 @@
+#section-know {
+	background-attachment: fixed;
+}
+
+.know_items {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+#section-know .know_items img {
+	width: 40%;
+	margin-left: 4rem;
+}
+
+#section-know .section-header h2 {
+	font-size: 3.5rem;
+	color: #ccc;
+}
+
+#section-know .section-header h2::after,
+#section-know .section-header h2::before {
+	display: none !important;
+}
+
+#section-know.light-bg h2 {
+	color: var(--primary-color);
+}
+#section-know.light-bg p,
+#section-know.white-bg p {
+	font-weight: 300;
+}

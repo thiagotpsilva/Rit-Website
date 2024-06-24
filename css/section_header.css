@@ -1,0 +1,46 @@
+.section-header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	width: 100%;
+	width: 85%;
+	margin: 0 auto;
+}
+
+.section-header h2 {
+	font-size: 5.6rem;
+	font-weight: 300;
+	position: relative;
+}
+
+.section-header h2::after,
+.section-header h2::before {
+	content: '';
+	position: absolute;
+	background-color: var(--primary-color);
+	height: 0.3rem;
+	top: 45%;
+	right: 100%;
+	margin-right: 1rem;
+	width: 9rem;
+	bottom: 0;
+}
+
+.section-header h2::after {
+	margin-left: 1rem;
+	left: 100%;
+	right: 0;
+}
+
+.section-header h3 {
+	font-family: var(--primary-font);
+	text-transform: uppercase;
+	font-size: 3rem;
+	font-weight: 300;
+}
+
+.section-header p {
+	max-width: 80%;
+}

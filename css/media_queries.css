@@ -1,0 +1,196 @@
+@media (max-width: 768px) {
+	#footer .flex-container div:first-child::after {
+		display: none;
+	}
+	#footer .flex-container div:nth-child(2) {
+		display: none;
+	}
+	/* Hero */
+	.hero .content h1 {
+		font-size: 7rem;
+	}
+
+	/* Info  */
+	#section-faq .grid-container {
+		grid-template-columns: 1fr;
+	}
+
+	/* All pages */
+	#section-btn {
+		text-align: center;
+	}
+	#section-btn .flex-container > div {
+		flex-direction: column;
+	}
+	#section-btn .flex-container > div a {
+		margin-top: 1rem;
+	}
+
+	#section-btn h2 {
+		line-height: 1;
+	}
+
+	/* SECTION HEADER */
+	.section-header h2 {
+		font-size: 2.5rem;
+	}
+	.section-header h2::before,
+	.section-header h2::after {
+		display: none;
+	}
+	.section-header span {
+		font-size: 4rem;
+	}
+	.section-header p {
+		font-size: 1.5rem;
+		margin-top: 1rem;
+		line-height: 1.2;
+	}
+
+	.section-about .grid-container {
+		display: flex;
+		flex-direction: column;
+	}
+	#section-features .grid-3 {
+		grid-template-columns: 1fr;
+	}
+	#section-app .grid-container {
+		grid-template-columns: 1fr;
+	}
+	#section-app .grid-container .treino_img {
+		width: 50%;
+	}
+	#section-app .section-header p {
+		/* width: 0%; */
+		margin: 1rem;
+		line-height: 1;
+	}
+	#footer h3 {
+		/* justify-content: center; */
+		text-align: center;
+	}
+	#footer .app-icons {
+		margin-left: 2rem;
+	}
+	#footer .copy {
+		display: flex;
+		align-items: center;
+	}
+	#footer .copy p {
+		font-size: 1.5rem;
+	}
+
+	#articles-section .grid-container {
+		display: flex;
+		flex-direction: column;
+	}
+	#home-articles .articles-container {
+		display: flex;
+		flex-direction: column;
+	}
+	#section-team .grid-container {
+		display: flex;
+		flex-direction: column;
+		width: 70%;
+		margin: 0 auto;
+	}
+	#section-modalities .grid-container {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.slide .content {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		max-width: 100%;
+		text-align: center;
+	}
+	.slide .content h1 {
+		font-size: 4.4rem;
+		font-weight: 500;
+		text-align: center;
+	}
+
+	.slide .content img {
+		display: inline;
+	}
+	.slide:nth-child(1) .content {
+		margin-bottom: 2.5rem;
+	}
+	.slide:nth-child(3) .content {
+		margin-top: 4rem;
+	}
+	.slide:nth-child(5) .content {
+		margin-bottom: 8rem;
+	}
+
+	.slide .content h2 {
+		font-size: 2rem;
+		margin-top: -2rem;
+		text-align: center;
+		line-height: 1;
+	}
+
+	.slide .content p {
+		font-size: 1.5rem;
+		margin-bottom: 1rem;
+		margin-top: 1rem;
+	}
+
+	.slide .content h4 {
+		font-size: 1.3rem;
+	}
+	.section-about .grid-3 .flex-card,
+	#section-modalities .grid-3 .flex-card {
+		justify-content: center;
+		width: 100%;
+		border-bottom: 0.1rem dotted var(--secondary-color);
+		justify-content: flex-start;
+	}
+	#section-modalities .flex-container .flex-card-border {
+		border-bottom: none;
+	}
+	#section-app-home .flex-container > img {
+		width: 100%;
+	}
+	#section-values .grid-3 {
+		grid-template-columns: repeat(1, 1fr);
+	}
+	#section-cards .grid-3 {
+		grid-template-columns: repeat(2, 1fr);
+	}
+	#section-columns .columns_items {
+		display: flex;
+		flex-direction: column;
+	}
+	#section-columns-reverse .columns_items_reverse {
+		flex-direction: column;
+	}
+	#section-vantages .grid-3 {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+@media (max-width: 960px) {
+	/* show main mobile menu */
+	.mobile-only {
+		display: block;
+	}
+	.navbar ul {
+		display: none;
+	}
+}
+
+@media (max-width: 700px) {
+	.counters .container {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.counters .container > div:nth-of-type(1),
+	.counters .container > div:nth-of-type(2) {
+		border-bottom: 1px lightskyblue solid;
+		padding-bottom: 20px;
+	}
+}

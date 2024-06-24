@@ -1,0 +1,42 @@
+#section-columns {
+	background-attachment: fixed;
+}
+
+.columns_items {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+
+#section-columns .columns_items img {
+	width: 50%;
+	margin-right: 4rem;
+}
+
+#section-columns .section-header h2 {
+	font-size: 3.5rem;
+	color: #ccc;
+}
+
+#section-columns .section-header h2::after,
+#section-columns .section-header h2::before {
+	display: none !important;
+}
+
+#section-columns img {
+	width: 75%;
+}
+
+#section-columns.white-bg img {
+	border-radius: 3rem;
+}
+
+#section-columns.light-bg h2 {
+	color: var(--primary-color);
+}
+
+#section-columns.light-bg p,
+#section-columns.white-bg p {
+	font-weight: 300;
+}

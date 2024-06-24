@@ -1,0 +1,35 @@
+#section-porpuse {
+	background-attachment: fixed;
+}
+
+.porpuse_items {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+
+#section-porpuse .porpuse_items img {
+	width: 35%;
+	border-radius: 25%;
+	margin-right: 4rem;
+}
+
+#section-porpuse .section-header h2 {
+	font-size: 3.5rem;
+	color: #ccc;
+}
+
+#section-porpuse .section-header h2::after,
+#section-porpuse .section-header h2::before {
+	display: none !important;
+}
+
+#section-porpuse.light-bg h2 {
+	color: var(--primary-color);
+}
+
+#section-porpuse.light-bg p,
+#section-porpuse.white-bg p {
+	font-weight: 300;
+}

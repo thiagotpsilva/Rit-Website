@@ -1,0 +1,7 @@
+.section-content {
+	height: 40vh;
+}
+.section-content a {
+	display: flex;
+	width: 100%;
+}

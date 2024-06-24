@@ -1,0 +1,60 @@
+.vantage > .flex-card {
+	margin: 1rem;
+	background-color: var(--primary-color);
+	min-height: 35rem;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+	text-align: center;
+	padding: 1rem;
+	border-radius: 1rem;
+}
+
+/* TEXT STYLES */
+
+.about-bg {
+	background-image: url('../images/backgrounds/pexels-fauxels-3183171.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 30rem;
+	position: relative;
+	z-index: -1;
+}
+
+.about-bg::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: var(--secondary-color);
+	opacity: 0.89;
+	z-index: -2;
+}
+
+.about-bg p {
+	font-size: 2.5rem;
+	letter-spacing: 0.1rem;
+	font-weight: 500;
+	color: var(--light-gray-color);
+	font-weight: 100;
+	/* font-weight: bold; */
+	/* color: var(--primary-color); */
+}
+
+#section-tabs {
+	/* background-color: red; */
+	padding: 2rem 0;
+}
+.section-content.about-content .container {
+	min-height: 60vh;
+}

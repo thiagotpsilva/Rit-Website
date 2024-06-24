@@ -1,0 +1,39 @@
+.section-vantages {
+	background: url('../images/backgrounds/white_bg.jpg');
+	background-attachment: fixed;
+}
+
+#section-vantages .grid-container {
+	margin-bottom: 2rem;
+	/* gap: 2rem; */
+	padding: 2rem;
+}
+
+#section-vantages ion-icon {
+	padding: 1rem;
+	min-width: 5rem;
+	font-size: 4rem;
+}
+
+#section-vantages .flex-card {
+	display: flex;
+	height: 100%;
+	padding: 2rem;
+	background-color: var(--secondary-color);
+	text-align: center;
+	border-radius: 0;
+}
+
+#section-vantages .flex-card h3 {
+	color: var(--secondary-color);
+	color: var(--primary-color);
+	font-weight: bold;
+}
+#section-vantages .flex-card p {
+	color: #cccccc96;
+	font-weight: 300;
+}
+
+#section-vantages .flex-container {
+	flex-direction: column;
+}

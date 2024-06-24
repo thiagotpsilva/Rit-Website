@@ -1,0 +1,39 @@
+.section-modalities {
+	background: url('../images/backgrounds/white_bg.jpg');
+	background-attachment: fixed;
+}
+
+#section-modalities .grid-container {
+	margin-bottom: 2rem;
+	/* gap: 2rem; */
+	padding: 2rem;
+}
+
+#section-modalities ion-icon {
+	padding: 1rem;
+	min-width: 5rem;
+	font-size: 4rem;
+}
+
+#section-modalities .flex-card {
+	display: flex;
+	height: 100%;
+	padding: 2rem;
+	background-color: var(--secondary-color);
+	text-align: center;
+	border-radius: 0;
+}
+
+#section-modalities .flex-card h3 {
+	color: var(--secondary-color);
+	color: var(--primary-color);
+	font-weight: bold;
+}
+#section-modalities .flex-card p {
+	color: #cccccc96;
+	font-weight: 300;
+}
+
+#section-modalities .flex-container {
+	flex-direction: column;
+}

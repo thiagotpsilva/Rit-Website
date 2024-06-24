@@ -1,0 +1,59 @@
+#section-gallery .container {
+	padding-bottom: 2rem;
+}
+
+#section-gallery .grid-5 {
+	gap: 0.5rem;
+}
+
+#section-gallery .grid-5 a {
+	height: 100%;
+}
+
+#section-gallery .grid-5 a img {
+	height: 100%;
+	filter: grayscale(0.6);
+	width: 100%;
+	object-fit: cover;
+}
+
+#section-gallery .grid-5 a img:hover {
+	transition: all 0.2s ease;
+	filter: grayscale(0);
+}
+
+#section-gallery .grid-5 a:first-child {
+	grid-column: 1 / span 2;
+}
+
+#section-gallery .grid-5 a:nth-child(4) {
+	grid-row: 2 / span 1;
+}
+
+#section-gallery .grid-5 a:nth-child(6) {
+	grid-column: 2 / span 2;
+}
+
+#section-gallery .grid-5 a:nth-child(7) {
+	grid-column: 4 / span 2;
+}
+
+#section-gallery .grid-5 a:nth-child(9) {
+	grid-row: 3 / span 2;
+}
+
+#section-gallery .grid-5 a:nth-child(13) {
+	grid-column: 2 / span 2;
+}
+
+#section-gallery .grid-5 a:nth-child(14) {
+	grid-column: 4 / span 2;
+}
+
+#section-gallery .grid-5 a:nth-child(18) {
+	grid-column: 4 / span 2;
+}
+
+#section-gallery .grid-5 a:nth-child(19) {
+	grid-column: 1 / span 2;
+}
